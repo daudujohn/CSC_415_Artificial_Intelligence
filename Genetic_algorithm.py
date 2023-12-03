@@ -1,7 +1,7 @@
 import random
 from datetime import datetime
 
-mutation_probability = 0.6
+mutation_probability = 0.1
 
 def print_board(chess_board: str):
     for i in range(7, -1, -1):
